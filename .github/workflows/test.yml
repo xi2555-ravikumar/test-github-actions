@@ -1,5 +1,8 @@
-sdfhghs
-dsfdsf
-sdess
-cd
-Test
+name: My first Github Action
+on: [push]
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo "hello world"
+      -run: echo "this is step"
